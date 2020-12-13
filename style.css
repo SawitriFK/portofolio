@@ -1,0 +1,98 @@
+body {
+  background: white;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 100vh auto 300px 100px;
+}
+
+/*PROJECTS*/
+.tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  background: #aed9da;
+}
+
+.project-tile {
+  padding: 20px 20px 20px 20px;
+}
+
+/*CARDS*/
+.card {
+  border-radius: 30px;
+  max-width: 100%;
+  height: auto;
+}
+.card-img-top {
+  border-radius: 30px 30px 0px 0px;
+}
+
+#photo{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+
+/*NAVBAR*/
+img {
+  border-radius: 300px;
+}
+
+/*PROJECTS*/
+
+.container-fluid {
+  padding: 0px 0px 0px 0px;
+}
+
+#welcome-section {
+  text-align: center;
+  padding-top: 45vh;
+}
+
+/*MEDIA*/
+
+@media all and (max-width: 800px) {
+  .tiles {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .tiles {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  #navbar {
+    flex-flow: column wrap;
+    padding: 0;
+    text-align: center;
+  }
+  .navbar-brand {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.photo {
+  border-radius: 600px;
+}
+#contact {
+  text-align: center;
+  background: darkgrey;
+  padding: 1em;
+}
+#about {
+  padding: 20px 20px 20px 20px;
+}
+
+#profile-link {
+  text-decoration: none;
+  color: black;
+}
